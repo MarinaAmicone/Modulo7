@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
+@font-face {
+    font-family: mifuente;
+    src: url(../Desafio1/Fuentes/coolvetica\ rg.otf);
+    font-weight: bold;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;  
+}
+
+h1{
+    font-family: mifuente;
+    font-size: 120px;
+    color: #0a2ff1;
+}
+
+main{
+    padding: 16px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+div{
+    background-color: #eff2ff;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    padding: 32px;
+}
+
+div img{
+    width: 25%;
+    margin-left: 10%;
+    
+}
+
+.icon-apple{
+    width: 18%;
+    height: 25%;
+}
+
+h2{
+    font-size: 30px;
+    font-weight: 900;
+    color: #0a2ff1;
+}
+
+p{
+    font-size: 24px;
+    font-weight: 400;
+    color: #04146c;
+}
